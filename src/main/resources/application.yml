@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: moneypurse
+  datasource:
+    url: jdbc:postgresql://db.sruyfvykvxwvkbhuepow.supabase.co:5432/postgres?sslmode=require
+    username: postgres
+    password: moneyPURSE@94BD
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
